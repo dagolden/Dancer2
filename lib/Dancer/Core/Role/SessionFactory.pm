@@ -35,8 +35,6 @@ sub supported_hooks {
    /
 }
 
-sub _build_type {'Session'}
-
 =attr session_config
 
 A HashRef that contains all config options that should be passed to the

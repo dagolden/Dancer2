@@ -19,8 +19,6 @@ sub supported_hooks {
     /
 }
 
-sub _build_type {'Template'}
-
 requires '_build_name';
 requires 'render';
 
